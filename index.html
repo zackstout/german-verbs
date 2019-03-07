@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>german verbs</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <style>
+    </style>
+</head>
+
+<body>
+    <script>
+        $(document).ready(() => {
+
+            $.get("/verbs").then(data => {
+                console.log(data);
+                data.forEach(el => {
+                    const div = document.createElement("div");
+                    let txt = `${el.ger}: ${el.eng}`;
+                    div.classList.add("verb");
+                    txt += "<br>";
+                    el.ex.forEach(ex => {
+                        txt += `<br>${ex.ger}<br>${ex.eng}`;
+                    });
+                    div.innerHTML = txt;
+                    document.body.appendChild(div);
+                    const breakEl = document.createElement("div");
+                    breakEl.innerHTML = "<br><br>";
+                    document.body.appendChild(breakEl);
+                });
+            });
+        });
+       
+    </script>
+</body>
+
+</html>
