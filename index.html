@@ -8,32 +8,109 @@
     <title>german verbs</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <style>
+        .title {
+            margin: 5vh 0 1vh 0;
+            font-weight: bold;
+
+        }
+
+        .gerDiv {
+            color: steelblue;
+        }
+
+        .engDiv {
+            color: coral;
+        }
+
+        #song-show {
+            display: flex;
+            justify-content: space-around;
+        }
     </style>
 </head>
 
 <body>
+    <form>
+        <select id="song-select"></select>
+        <br>
+        <input id='sub' type="submit" value="Submit">
+    </form>
+
+    <div id="song-show">
+        <div id="song-ger"></div>
+        <div id="song-eng"></div>
+    </div>
     <script>
+
+
         $(document).ready(() => {
+            const songs = [];
+
+            document.getElementById("sub").addEventListener("click", (ev) => {
+                ev.preventDefault();
+                let songName;
+                // console.log(document.getElementById("song-select"));
+                document.getElementById("song-select").childNodes.forEach(op => {
+                    if (op.selected) songName = op.text;
+                });
+                const song = songs.filter(s => s.title === songName)[0];
+                console.log(song);
+
+                document.getElementById("song-ger").innerText = song.ger;
+                document.getElementById("song-eng").innerText = song.eng;
+            });
+
+            // console.log(songs);
+            $.get("/songs").then(data => {
+                console.log(data);
+                data.forEach(d => {
+                    const opt = document.createElement("option");
+                    opt.text = d.title;
+                    document.getElementById("song-select").add(opt);
+                    songs.push(d);
+                });
+            });
+
+            $.get("/beatles").then(data => {
+                console.log(data);
+                data.forEach(d => {
+                    const opt = document.createElement("option");
+                    opt.text = d.title;
+                    document.getElementById("song-select").add(opt);
+                    songs.push(d);
+                });
+            });
 
             $.get("/verbs").then(data => {
                 console.log(data);
-                data.forEach(el => {
+                data.forEach((el, i) => {
                     const div = document.createElement("div");
-                    let txt = `${el.ger}: ${el.eng}`;
                     div.classList.add("verb");
-                    txt += "<br>";
+
+                    const title = document.createElement("div");
+                    let txt = `${i}: ${el.ger}: ${el.eng}`;
+                    title.innerText = txt;
+                    title.classList.add("title");
+                    div.appendChild(title);
+
+                    // txt += "<br>";
                     el.ex.forEach(ex => {
-                        txt += `<br>${ex.ger}<br>${ex.eng}`;
+                        const gerDiv = document.createElement("div");
+                        const engDiv = document.createElement("div");
+
+                        gerDiv.classList.add('gerDiv');
+                        engDiv.classList.add('engDiv');
+                        gerDiv.innerText = ex.ger;
+                        engDiv.innerHTML = ex.eng.replace(/\*[\s\.\,\?\']/g, "</i> ").replace(/\s\*/g, "<i> "); // Need g to force ALL rather than just first.
+
+                        div.appendChild(gerDiv);
+                        div.appendChild(engDiv);
                     });
-                    div.innerHTML = txt;
                     document.body.appendChild(div);
-                    const breakEl = document.createElement("div");
-                    breakEl.innerHTML = "<br><br>";
-                    document.body.appendChild(breakEl);
                 });
             });
         });
-       
+
     </script>
 </body>
 

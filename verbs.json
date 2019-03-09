@@ -5,11 +5,11 @@
         "ex": [
             {
                 "ger": "Wotans neun Töchter singen beim Reiten. Er reitet auf Sleipnir, seinem Zauberross. Auf ihrem Ross ritt Brünnhilde in die Flammen.",
-                "eng": "Wotans' nine daughters sing as they ride. He rides on Sleipnir, his magic horse. On her steed, Brünnhilde rode into the flames."
+                "eng": "Wotans' nine daughters sing as they *ride*. He *rides* on Sleipnir, his magic horse. On her steed, Brünnhilde *rode* into the flames."
             },
             {
                 "ger": "Mittelalterliche Ritter ritten auf ihren Pferden.",
-                "eng": "Medieval knights rode on their horses."
+                "eng": "Medieval *knights* *rode* on their horses."
             }
         ]
     },
@@ -19,7 +19,7 @@
         "ex": [
             {
                 "ger": "Trude ist ein reizendes Mädchen. Ja, aber sie ist auch manchmal äußerst reizbar. Gerade darin besteht ihr Reiz. Das reizt mich an ihr. Eine solche Ansicht reizt zum Widerspruch.",
-                "eng": "Trude is a charming girl. Yes, but sometimes she's also extremely irritable. That's just what makes her charming. That's what appeals to me about her. Such an opinion invites contradiction."
+                "eng": "Trude is a *charming* girl. Yes, but sometimes she's also extremely *irritable*. That's just what makes her *charming*. That's what *appeals* to me about her. Such an opinion *invites* contradiction."
             }
         ]
     },
@@ -29,11 +29,355 @@
         "ex": [
             {
                 "ger": "Das Rennen zu machen sollte uns nicht so wichtig sein. Das Leben ist mehr als eine Rennbahn. Wir wollen nicht ins Verderben rennen.",
-                "eng": "Winning the race shouldn't be so important to us. After all, life is more than a racetrack. We don't want to rush headlong into disaster."
+                "eng": "Winning the *race* shouldn't be so important to us. After all, life is more than a *racetrack*. We don't want to *rush headlong* into disaster."
             },
             {
                 "ger": "Das Kind hat ein Rentier gesehen. Beide sind schnell weggerannt.",
-                "eng": "The child saw a reindeer. Both ran away fast."
+                "eng": "The child saw a reindeer. Both *ran away* fast."
+            }
+        ]
+    },
+    {
+        "ger": "glänzen",
+        "eng": "to glitter, shine; be brilliant",
+        "ex": [
+            {
+                "ger": "Es ist nicht alles Gold, was glänzt. Er will gerne glänzen, aber seine bisherigen Leistungen sind alles andere als glänzend, sagten seine Gegner.",
+                "eng": "All that *glitters* is not gold. He loves to *show off*, yet his prior accomplishments are anything but *brilliant*."
+            }
+        ]
+    },
+    {
+        "ger": "gießen",
+        "eng": "to pour; cast (metal)",
+        "ex": [
+            {
+                "ger": "Es gießt draußen. Gut, Jetzt brauch ich die Blumen im Garten nicht zu begießen.",
+                "eng": "It's *pouring* outside. Good. Now I don't need to *water* the flowers in the garden."
+            },
+            {
+                "ger": "Ich muss leider fort. Aber ich würde mir gern schnell ein Schlückchen hinter die Binde gießen.",
+                "eng": "Unfortunately I've got to leave. But I would like to *belt down* a little sip quickly."
+            }
+        ]
+    },
+    {
+        "ger": "gucken",
+        "eng": "to look; peep",
+        "ex": [
+            {
+                "ger": "Wir guckten Fernsehen, während die Kinder mit einem alten Guckkasten spielten. Lass uns auch mal gucken, sagten wir.",
+                "eng": "We *watched* TV while the children played with an old *slide show*. 'Let us have a *look*, too', we said."
+            },
+            {
+                "ger": "Die Matrosen guckten nach Haien aus.",
+                "eng": "The sailors were on the *lookout* for sharks."
+            },
+            {
+                "ger": "Kennen Sie Lehars Der Sterngucker?",
+                "eng": "Do you know Lehar's 'The Star *gazer*'?"
+            }
+        ]
+    },
+    {
+        "ger": "greifen",
+        "eng": "to seize, grasp, grab",
+        "ex": [
+            {
+                "ger": "Unser Professor träumt davon, nach der Macht zu greifen. Sein Buch Die Angriffslust beim Menshen ist schwer zu begreifen. Er lehrt, man müsse jede Gelegenheit ergreifen und immer schnell zugreifen.",
+                "eng": "Our professor dreams of *seizing* power. His book *Aggressivity* in Humans is difficult to *understand*. He teaches that one must *seize* every opportunity and always *take hold* of things quickly."
+            }
+        ]
+    },
+    {
+        "ger": "glotzen",
+        "eng": "to gawk, stare",
+        "ex": [
+            {
+                "ger": "Ganz verblüfft glotzte er uns an. Die Dummheit glotzt ihm aus den Augen. Den ganzen Tag sitzt er vor der Glotze.",
+                "eng": "Completely dumbfounded, he *gawked* at us. Stupidity *stares* out from his eyes. He sits in front of the *boob tube* all day."
+            }
+        ]
+    },
+    {
+        "ger": "gleiten",
+        "eng": "to glide, slide",
+        "ex": [
+            {
+                "ger": "Die Titanic konnte dem Eisberg nicht entgleiten. Dem Kapitän entglitt das Schiff.",
+                "eng": "The Titanic couldn't escape the iceberg. The captain lost control of the ship."
+            },
+            {
+                "ger": "Leise glitt die Tänzerin durch die Gärten. Später glitt sie auf dem Glatteis aus.",
+                "eng": "Softly the dancer glided through the gardens. Later she slipped on black ice."
+            }
+        ]
+    },
+    {
+        "ger": "gleichen",
+        "eng": "to be like, resemble, equal",
+        "ex": [
+            {
+                "ger": "Du gleichst deinem Vater, nicht mir. Verglichen mit anderen kannst du wenig, schalt Frau Bohrer. Die sind mir gleich. Ihnen gleich ich mich nicht an.",
+                "eng": "You resemble your father, not me. Compared to others you can't do much, scolded Mrs. Bohrer. They don't interest me. I won't conform to them."
+            },
+            {
+                "ger": "Der Schlosspark sucht seinesgleichen. Gärten, Statuen und Fontäne sind im Gleichgewicht!",
+                "eng": "The castle park has no equal. Gardens, statues, and fountains are harmoniously balanced!"
+            }
+        ]
+    },
+    {
+        "ger": "heben",
+        "eng": "to lift; raise; heave",
+        "ex": [
+            {
+                "ger": "Ich hatte die Kellertür verriegelt, aber Karl hob sie aus den Angeln. Mit seinem Saufen wird er die Welt aus den Angeln heben. Was ist denn so schlimm daran, wenn ich mal einen hebe? fragte er.",
+                "eng": "I latched the cellar door, but Karl took it off its hinges. He's putting the world out of joint with his drinking. What's so terrible with my having a drink once in a while? he asked."
+            }
+        ]
+    },
+    {
+        "ger": "hauen",
+        "eng": "to strike; hew; cut; chop; beat",
+        "ex": [
+            {
+                "ger": "Er glaubt, seine Worten seien in Stein gehauen und wirft mir vor, sein Drama in die Pfanne gehauen zu haben. Jetzt will er mich verhauen.",
+                "eng": "He thinks his words are hewn in stone and blames me for having panned his drama. Now he wants to beat me up."
+            }
+        ]
+    },
+    {
+        "ger": "heizen",
+        "eng": "to heat",
+        "ex": [
+            {
+                "ger": "Warum wird nicht geheizt? Geheizt wird erst ab Mitte November. Das Heizgas ist teuer und das Hotel ist schwer heizbar.",
+                "eng": "Why is there no heat? We only begin heating in mid-November. Fuel gas is expensive and the hotel is also difficult to heat."
+            }
+        ]
+    },
+    {
+        "ger": "hoffen",
+        "eng": "to hope; expect",
+        "ex": [
+            {
+                "ger": "Wir hoffen auf bessere Tage. Hoffentlich werden wir nicht umsonst gehofft haben",
+                "eng": "We're hoping for better days. Hopefully we won't have hoped in vain."
+            },
+            {
+                "ger": "Von ihm ist nichts merh zu erhoffen.",
+                "eng": "Nothing more can be expected from him."
+            }
+        ]
+    },
+    {
+        "ger": "hetzen",
+        "eng": "to hunt; rush about; incite",
+        "ex": [
+            {
+                "ger": "Dem gehetzten Fuchs gelang es, den Hunden zu entkommen.",
+                "eng": "The hunted fox succeeded in escaping the hounds."
+            },
+            {
+                "ger": "Das Hetzblatt hetzte das Volk zum Krieg auf.",
+                "eng": "The rabble-rousing sheet (newspaper) incited the people to war."
+            },
+            {
+                "ger": "Den ganzen Tag hab ich gehetzt.",
+                "eng": "I've been in a rush all day."
+            }
+        ]
+    },
+    {
+        "ger": "kochen",
+        "eng": "to cook; boil; seethe",
+        "ex": [
+            {
+                "ger": "Heute abend möchte ich dir meine Kochkunst zeigen, sagte Willi. Niemand außer mir darf in der Küche kochen. Ich versteh mich aufs Kochen, entgegnete Barbara.",
+                "eng": "Tonight I'd like to show you my culinary art, said Willi. Nobody but me can cook in the kitchen. I know something about cooking, countered Barbara."
+            }
+        ]
+    },
+    {
+        "ger": "erwägen",
+        "eng": "to consider, ponder",
+        "ex": [
+            {
+                "ger": "Die Chefin will es erwägen. Bei einer so wichtigen Entscheidung wird sie alle Umstände in Erwägung ziehen. Wir müssen warten, bis sie alles wohl erwogen hat.",
+                "eng": "The boss wants to ponder it. In such an important decision she will take all circumstances into consideration. We must wait until she's weighed everything carefully."
+            }
+        ]
+    },
+    {
+        "ger": "träumen",
+        "eng": "to dream",
+        "ex": [
+            {
+                "ger": "Hugo träumt nicht mehr von Reichtum. In seinem verträumten Dörfchen, spielt er Träumerei und Libestraum am Klavier und liest Freuds Traumdeutung. Er erträumt sich noch eine Traumfrau.",
+                "eng": "Hugo no longer dreams of riches. In his dreamy hamlet he plays Revery and Dream of Love on the piano and reads Freud's The Interpretation of Dreams. He still imagines of the woman of his dreams."
+            }
+        ]
+    },
+    {
+        "ger": "trösten",
+        "eng": "to console",
+        "ex": [
+            {
+                "ger": "Die Witwe fand keinen Trost in ihren Tränen. Bald aber ließ sie sich von vielen und vielem trösten. Sie tröstete sich auch mit der Musik. Später schrieb sie ein Buch der Tröstungen.",
+                "eng": "The widow found no solace in her tears. But soon she permitted herself to be comforted by many people and things. She also consoled herself with music. Later she wrote a Book of Consolations."
+            }
+        ]
+    },
+    {
+        "ger": "trotzen",
+        "eng": "to defy",
+        "ex": [
+            {
+                "ger": "Der Junge trotzt ständig. Er ist im Trotzalter. Ich verbot es ihm, mit meinem Computer und dem neuen Auto zu spielen. Aber er tut es trotzdem. Mir zum Trotze tut er das. Er ist trotzköpfig.",
+                "eng": "The boy defies me all the time. He's at a difficult age. I forbade him to play with my computer and the new car. But he does it anyway. He does it to spite me. He's bullheaded."
+            }
+        ]
+    },
+    {
+        "ger": "überraschen",
+        "eng": "to surprise",
+        "ex": [
+            {
+                "ger": "Ihr habt mich angenehm überrascht. Ihr habt die Aufgaben rasch und gut, überraschend gut, gemacht. Ich hoffe, ihr werdet mich weiterhin so angenehm überraschen, sagte die Lehrerin den Schülern.",
+                "eng": "You surprised me pleasantly. You did your assignments quickly and well, surprisingly well. I hope you'll continue to surprise me so pleasantly, said the teacher to the students."
+            }
+        ]
+    },
+    {
+        "ger": "überwinden",
+        "eng": "to overcome, conquer",
+        "ex": [
+            {
+                "ger": "Er hat seine Charakterschwächen überwunden. Du wirst auch die deinen überwinden.",
+                "eng": "He has overcome his character defects. You will overcome yours, too."
+            },
+            {
+                "ger": "Mannes nie überwinden können. Ich konnte mich nicht dazu überwinden, ihr die Wahrheit über ihn zu sagen.",
+                "eng": "Cosima never could get over her husband's death. I couldn't bring myself to tell her the truth about him."
+            }
+        ]
+    },
+    {
+        "ger": "erfinden",
+        "eng": "to invent; discover; find out",
+        "ex": [
+            {
+                "ger": "Paul is sehr erfinderisch, und ich bewundere seine Erfindungsgabe. Ich glaube aber, dass er die Geschichte von seiner Jupiterreise erfunden hat.",
+                "eng": "Paul is very inventive and I admire his talent for invention. But I think he invented the story of his trip to Jupiter."
+            }
+        ]
+    },
+    {
+        "ger": "erklären",
+        "eng": "to explain, declare, announce",
+        "ex": [
+            {
+                "ger": "Warum hat man den Krieg erklärt? Das kann ich mir gar nicht erklären. Gibt es eine vernünftie Erklärunt dafür? Wir hätten uns deutlicher für den Frieden erklären sollen, erklärte der Historiker.",
+                "eng": "Why was war declared? I can't account for that at all. Is there a rational explanation for it? We should have come out more strongly for peace, declared the historian."
+            }
+        ]
+    },
+    {
+        "ger": "sich erkälten",
+        "eng": "to catch a cold",
+        "ex": [
+            {
+                "ger": "Ich bin wieder erkältet, klagte Karl seiner Frau. Zieh dich wärmer an, wenn's kalt ist. Dann wirst du dich weinger erkälten, sagte sie. Später fragte sie den Apotheker: War empfehlen Sie mir gegen eine Erkältung?",
+                "eng": "I've got a cold again. Karl complained to his wife. Dress warmer when it's cold. Then you'll catch cold less often, she said. Later she asked the pharmacist, What do you recommend for a cold?."
+            }
+        ]
+    },
+    {
+        "ger": "errichten",
+        "eng": "to erect, establish",
+        "ex": [
+            {
+                "ger": "IDer Soziologe errichtete ein Institut, um seine Pläne zu verwirklichen. Aber alles, was er errictet hatte, wurde durch den Krieg zerstört. Nach seinem Tod ließen ihm seine Anhänger ein Denkmal erricthen.",
+                "eng": "The sociologist established an institute to put his plans into practice. But everything he had built was destroyed by the war. After his death his disciples had a monument built to him."
+            }
+        ]
+    },
+    {
+        "ger": "ersticken",
+        "eng": "to choke, stifle",
+        "ex": [
+            {
+                "ger": "Es ist erstickend heiß hier und wir ersticken in der Arbeit. Warum streiken wir nicht? Diese Revolte muss im Keim erstickt werden, dachte sich der Chef.",
+                "eng": "It's stifling hot here and we're swamped with work. Why don't we go on strike? This revolt has to be nipped in the bud, thought the boss to himeself."
+            }
+        ]
+    },
+    {
+        "ger": "fallen",
+        "eng": "to fall",
+        "ex": [
+            {
+                "ger": "Scharfe Worte fielen",
+                "eng": "Harsh words were spoken."
+            },
+            {
+                "ger": "Ich bin schließlich nicht auf den Kopf gefallen.",
+                "eng": "After all, I'm no dummy."
+            },
+            {
+                "ger": "Die Freundschaft haben wir fallen lassen",
+                "eng": "We abandoned our friendship."
+            },
+            {
+                "ger": "Die Würfel sind gefallen",
+                "eng": "The die is cast."
+            },
+            {
+                "ger": "Mir ist Schlimmeres befallen. Zwei Sprüche fielen mir ein: Fallen ist menschlich; liegen bleiben ist teuflisch, und, Fall 7 mal herunter. Steh 8 mal auf.",
+                "eng": "Worse things have happened to me. Two proverbs occurred tome: To fall is human; to stay down is devilish, and Fall down 7 times, get up 8."
+            }
+        ]
+    },
+    {
+        "ger": "fangen",
+        "eng": "to catch, capture",
+        "ex": [
+            {
+                "ger": "Er verfind sich in Lügen und wurde gefangen genommen.",
+                "eng": "He got tangled up in lies and was taken prisoner."
+            },
+            {
+                "ger": "Papageno, der Vogelfänger in Mozarts Zauberflöte, fing viele Vögel für die Königin der Nacht.",
+                "eng": "Papageno, the bird catcher in Mozart's Magic Fluter, caught many birds for the Queen of the Night."
+            }
+        ]
+    },
+    {
+        "ger": "fliehen",
+        "eng": "to flee, shun, avoid",
+        "ex": [
+            {
+                "ger": "EDie Flüchtlinge sind vor dem Feind geflohen. Sie sind noch auf der Flucht und versuchen, ins Ausland zu fliehen.",
+                "eng": "The refugees fled from the enemy. They're still in flight and are trying to flee the country."
+            },
+            {
+                "ger": "Es war ein Unfall mit Fahrerflucht. Der Fahrer ist geflohen.",
+                "eng": "It was a hit and run accident. The driver fled."
+            }
+        ]
+    },
+    {
+        "ger": "fließen",
+        "eng": "to flow",
+        "ex": [
+            {
+                "ger": "Viele Flüsse fließen nicht mehr in ihren alten Flussbetten. Alles fließt, erkärte Haraklit.",
+                "eng": "Many rivers no longer flow in their old river bed. All is in flux, explained Heraclitus."
+            },
+            {
+                "ger": "Du sprichst di Sprache fließend. Frag ihn, ob es fließend Wasser in der Hütte gibt.",
+                "eng": "You speak the language fluently. Ask him if there's running water in the hut."
             }
         ]
     }

@@ -1,10 +1,21 @@
 const express = require("express");
 const app = express();
 const fs = require('fs');
+const beatles = require('./beatles.js');
+const songs = require('./songs.js');
+
 
 app.get("/", (req, res) => {
     res.sendFile(__dirname + '/index.html');
 
+});
+
+app.get("/beatles", (req, res) => {
+    res.send(beatles);
+});
+
+app.get("/songs", (req, res) => {
+    res.send(songs);
 });
 
 app.get("/verbs", (req, res) => {
